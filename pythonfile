@@ -10,3 +10,9 @@ print(b)
 [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
 <generator object <genexpr> at 0x7f61f8808b50>
 """
+# adding some more code lines
+for number in [1,2,3,4]:
+    if number % 2 == 0:
+        print(number)
+    else:
+        continue
